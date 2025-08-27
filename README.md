@@ -69,6 +69,33 @@ conda activate SurgRAW
 # 3️⃣ Install required Python packages
 pip install -r requirements.txt
 ```
+---
+> Ensure `requirements.txt` is in the project root.  
+> For GPU, install the CUDA-matching PyTorch wheels per the official PyTorch instructions.
+
+---
+
+## 🚀 Running SurgRAW
+
+Run the orchestration pipeline on your `.xlsx` dataset using the provided script (which calls `final_orchestrator` under the hood).
+
+```bash
+python run_orchestration.py   --xlsx_file /path/to/your/input.xlsx   --log_dir /path/to/save/logs
+```
+
+**Arguments**
+- `--xlsx_file` – Path to the Excel file with columns: `image_path`, `COT_Process`, `question_mcq`, `ground_truth` *(optional)*  
+- `--log_dir` – Directory where per-row logs (`*.txt`) will be written
+
+**Example**
+```bash
+python run_orchestration.py   --xlsx_file data/SurgCoTBench_sample.xlsx   --log_dir logs/
+```
+
+Each row produces a dedicated log file named like:
+```
+<image_stem>_<COT_Process_sanitized>_SurgCOT.txt
+```
 
 ---
 
