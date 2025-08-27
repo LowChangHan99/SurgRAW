@@ -94,7 +94,7 @@ python run_orchestration.py   --xlsx_file data/SurgCoTBench_sample.xlsx   --log_
 
 Each row produces a dedicated log file named like:
 ```
-<image_stem>_<COT_Process_sanitized>_SurgCOT.txt
+<image_name>_<COT_FileNamingConvention>_SurgCOT.txt
 ```
 
 ---
