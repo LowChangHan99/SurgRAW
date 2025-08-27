@@ -68,6 +68,7 @@ conda activate SurgRAW
 
 # 3️⃣ Install required Python packages
 pip install -r requirements.txt
+```
 
 ---
 
