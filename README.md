@@ -55,6 +55,22 @@ Dataset and full CoT prompt releases will follow publication. Collaborations are
 
 ---
 
+## ⚙️ Setting Up the Environment
+
+Follow these steps to set up the `SurgRAW` environment:
+
+```bash
+# 1️⃣ Create a new conda environment
+conda create -n SurgRAW python=3.12 -y
+
+# 2️⃣ Activate the environment
+conda activate SurgRAW
+
+# 3️⃣ Install required Python packages
+pip install -r requirements.txt
+
+---
+
 ## 🖼 Case Studies 
 ![Chain-of-Thought example](Figures/COT.png)
 
