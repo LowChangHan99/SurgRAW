@@ -1,7 +1,6 @@
-# SurgRAW
-**Multi-Agent Workflow with Chain-of-Thought Reasoning for Surgical Intelligence**
+# SurgRAW:**Multi-Agent Workflow with Chain-of-Thought Reasoning for Surgical Intelligence**
 
-The official repository for **SurgRAW** — a Chain-of-Thought-driven, multi-agent framework delivering transparent and interpretable insights for robotic-assisted surgery.
+The official repository for **SurgRAW**, a Chain-of-Thought-driven, multi-agent framework delivering transparent and interpretable insights for robotic-assisted surgery.
 
 > **Note:** The full codebase and dataset will be released soon.
 
