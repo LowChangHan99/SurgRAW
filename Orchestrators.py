@@ -1,7 +1,6 @@
 import re
 import sys
 import logging
-
 from Utils.API_utils import call_gpt35Turbo_api
 from Agents.Agent1_ActionRecognition import Action_Recognition_Agent
 from Agents.Agent2_SurgicalPlan import Action_Prediction_Agent
